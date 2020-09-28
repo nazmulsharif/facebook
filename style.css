@@ -1,0 +1,146 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: tahoma;
+}
+.fb_header {
+	background: linear-gradient(#46639E, #3B5998);
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #133783;
+}
+.mid {
+	width: 80%;
+	margin: auto;
+}
+.logo{
+	width: 60%;
+	float: left;
+	margin-top: 25px;
+}
+.login{
+	width: 40%;
+	float: left;
+}
+.login1 input, .login2 input{
+	display: block;
+	border: 1px solid #1d2a5b;
+	padding: 3px;
+	margin-top: 3px;
+}
+.login1, .login2, .login3 {
+	float: left;
+	margin-right: 10px;
+}
+
+.login1 label , .login2 label {
+	color: #FFF;
+	font-size: 14px;
+}
+
+.login2 a {
+	text-decoration: none; 
+	font-size: 12px;
+	color: #9cb4d8;
+}
+.login2 a:hover {
+	text-decoration: underline;
+}
+
+.login3 input  {
+	border: 1px solid #29487d;
+	background-color: #4267b2;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+	padding:  3px 7px;
+	font-size: 11px;
+	cursor: pointer;
+	margin-top: 24px;
+}
+
+.fb-body {
+	background: linear-gradient(#FEFFFF, #D4D9E8);
+	overflow: hidden;
+}
+
+.body-left {
+	width: 55%;
+	float: left;
+}
+
+.body-right {
+	width: 45%;
+	float: left;
+}
+
+.body-left h2 {
+	margin-top: 40px;
+	font-size: 20px;
+	color: #0e385f;
+	width: 90%;
+
+}
+
+.body-right h1 {
+	font-size: 36px;
+	color: #333;
+	margin-top: 20px;
+}
+
+.body-right > p {
+	color: #1d2129;
+	font-size: 19px;
+	margin: 10px 0px 15px 0px;
+}
+
+.input-box {
+	overflow: hidden;
+	width: 86%;
+}
+
+.input-box  input {
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 18px;
+	padding: 8px 10px;
+	margin-bottom: 5px;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+}
+
+.birthday {
+	margin: 10px 0px;
+	overflow: hidden;
+}
+
+.birthday h2 {
+	color:#1d2129;
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+
+
+.birthday select {
+	border: 1px solid #bdc7d8;
+	font-size: 13px;
+	padding: 5px;
+	float: left;
+	display: block;
+}
+
+.birthday a {
+	font-size: 11px;
+	text-decoration: none; 
+	color: #365899;
+	width: 150px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.birthday a:hover {
+	text-decoration: underline;
+}
